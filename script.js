@@ -1,8 +1,8 @@
 
-// Trabalhando com saída de dados.
-console.log("fui criado no JavaScript");
+const idade = 18;
 
-// Tipos de dados.
-console.log("29"); //string
-console.log(29.5); //number
-console.log(true, false);
+if(idade > 18){
+    console.log("Você é maior de idade.")
+} else {
+    console.log("Você é menor de idade.")
+}
